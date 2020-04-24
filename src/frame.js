@@ -1,7 +1,7 @@
 import React from 'react';
 import SimpleAppBar from './header.js';
+import Bracket from './bracket.js';
 import './index.css';
-
 
 class Frame extends React.Component {
   render() {
@@ -10,12 +10,10 @@ class Frame extends React.Component {
 
         <div className="frame-header">
           <SimpleAppBar></SimpleAppBar>
-          
         </div>
 
-        <div className="game-info">
-          <div>Hey</div>
-          <ol>You</ol>
+        <div className="bracket-info">
+          <Bracket/>
         </div>
       </div>
     );

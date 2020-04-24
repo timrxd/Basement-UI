@@ -14,6 +14,7 @@ ol, ul {
 }
 
 .status {
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
@@ -45,6 +46,6 @@ ol, ul {
   flex-direction: row;
 }
 
-.game-info {
-  margin-left: 20px;
+.bracket-info {
+  margin: 20px;
 }

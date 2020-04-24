@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import SimpleAppBar from './header.js';
 import './index.css';
 
 function Square(props) {
